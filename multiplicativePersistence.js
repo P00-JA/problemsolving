@@ -1,5 +1,5 @@
 function multiplicativePersistence(n){
-    let p=1;
+    const p=1;
     let arr = n.toString().split('');
     let product =arr.reduce(
         (accumulator, currentValue) => accumulator * currentValue,
